@@ -1,2 +1,3 @@
-# .Net_Threading
-Samples and info for .Net Threading, which I can refer later on.
+# .Net Threading
+
+Samples and information for .Net Threading, which I can refer later on.
