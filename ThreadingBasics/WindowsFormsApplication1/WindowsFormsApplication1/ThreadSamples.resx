@@ -133,6 +133,19 @@
      To make it thread safe, we can use lock statement.
 
 3. ThreadStatic Attribute
-    By using this attribute we can make any static variable as  a private copy of each thread. So every thread will have different data value for this variable.</value>
+    By using this attribute we can make any static variable as  a private copy of each thread. So every thread will have different data value for this variable.
+
+4. InterLocked.Increment method
+InterLocked class methods may be used for thread-safe operations e.g.
+     4.1 increment or decrement counter value
+     4.2 for assigning a value to a variable</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Usage: 
+Click the 'Start Thread' button as fast as you can for around 30 seconds and click Break button.
+
+Check the values of lstStrings and Counter. Ideally they should have equal counts, but as the current implementation is not Thread-Safe their values may differ.
+
+lstStrings should have messages from all the Threads, while lstThreadSpecificStrings will contain only the messages for current thread. ThreadStatic attribute made it that every Thread will have a separate copy of this variable available.</value>
   </data>
 </root>
