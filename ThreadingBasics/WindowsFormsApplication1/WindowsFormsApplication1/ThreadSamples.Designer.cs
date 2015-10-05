@@ -32,6 +32,7 @@
             this.btnStartThread = new System.Windows.Forms.Button();
             this.btnBreakExecution = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStartThread
@@ -63,11 +64,20 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 158);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(202, 271);
+            this.label1.TabIndex = 3;
+            this.label1.Text = resources.GetString("label1.Text");
+            // 
             // ThreadSamples
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(859, 502);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnBreakExecution);
             this.Controls.Add(this.btnStartThread);
@@ -83,5 +93,6 @@
         private System.Windows.Forms.Button btnStartThread;
         private System.Windows.Forms.Button btnBreakExecution;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
